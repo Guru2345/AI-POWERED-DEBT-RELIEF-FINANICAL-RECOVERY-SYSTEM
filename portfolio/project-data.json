@@ -1,0 +1,181 @@
+{
+  "project": {
+    "id": "ai-debt-relief-system",
+    "name": "AI-Powered Debt Relief Financial Recovery System",
+    "shortName": "CreditFlow Pro",
+    "tagline": "Enterprise-grade financial platform with AI-powered assistance",
+    "description": "A sophisticated enterprise-grade financial management platform that leverages artificial intelligence to provide comprehensive debt relief and financial recovery solutions. Built with cutting-edge technologies including React 19, TypeScript, and Google Gemini AI.",
+    "category": "Full-Stack Web Application",
+    "type": "Enterprise Financial Platform",
+    "status": "Live & Production Ready",
+    "featured": true,
+    "difficulty": "Advanced",
+    "duration": "3+ months",
+    "teamSize": "Solo Project",
+    
+    "links": {
+      "live": "https://ais-dev-kqnufxjnn62rwtactzdxtm-550408133837.asia-southeast1.run.app",
+      "github": "https://github.com/Guru2345/AI-POWERED-DEBT-RELIEF-FINANICAL-RECOVERY-SYSTEM",
+      "documentation": "https://github.com/Guru2345/AI-POWERED-DEBT-RELIEF-FINANICAL-RECOVERY-SYSTEM/blob/main/README.md",
+      "deployment": "https://github.com/Guru2345/AI-POWERED-DEBT-RELIEF-FINANICAL-RECOVERY-SYSTEM/blob/main/DEPLOYMENT.md"
+    },
+    
+    "technologies": {
+      "frontend": {
+        "framework": "React 19.0.1",
+        "language": "TypeScript 5.8.2",
+        "styling": "Tailwind CSS 4.1.14",
+        "buildTool": "Vite 6.2.3",
+        "routing": "React Router 7.18.1",
+        "charts": "Recharts 3.9.2",
+        "icons": "Lucide React 0.546.0",
+        "animations": "Framer Motion 12.23.24"
+      },
+      "backend": {
+        "runtime": "Node.js 18+",
+        "framework": "Express.js 4.21.2",
+        "language": "TypeScript 5.8.2",
+        "ai": "Google Gemini AI 2.4.0",
+        "bundler": "ESBuild 0.25.0",
+        "cors": "CORS 2.8.6"
+      },
+      "deployment": {
+        "primary": "Google Cloud Run",
+        "alternatives": ["Vercel", "Netlify", "Railway"],
+        "containerization": "Docker",
+        "cicd": "GitHub Actions",
+        "ssl": "Automatic HTTPS"
+      },
+      "development": {
+        "packageManager": "npm",
+        "taskRunner": "npm scripts",
+        "linting": "TypeScript Compiler",
+        "environment": "TSX for development"
+      }
+    },
+    
+    "features": [
+      {
+        "name": "Executive Dashboard",
+        "description": "Real-time financial metrics and portfolio performance tracking",
+        "icon": "📊",
+        "type": "Analytics"
+      },
+      {
+        "name": "AI Chat Assistant",
+        "description": "Google Gemini-powered intelligent financial guidance",
+        "icon": "🤖",
+        "type": "AI Integration"
+      },
+      {
+        "name": "Loan Calculator",
+        "description": "Advanced EMI calculations with scenario analysis",
+        "icon": "🧮",
+        "type": "Financial Tools"
+      },
+      {
+        "name": "Document Generator",
+        "description": "Automated legal correspondence and template generation",
+        "icon": "📋",
+        "type": "Automation"
+      },
+      {
+        "name": "Settlement Predictor",
+        "description": "AI-powered debt negotiation strategy optimization",
+        "icon": "🎯",
+        "type": "Predictive Analytics"
+      },
+      {
+        "name": "Budget Planner",
+        "description": "Comprehensive cash flow management and planning",
+        "icon": "💼",
+        "type": "Financial Planning"
+      },
+      {
+        "name": "Business Intelligence",
+        "description": "Advanced reporting and data visualization",
+        "icon": "📈",
+        "type": "Reporting"
+      },
+      {
+        "name": "Cloud Integration",
+        "description": "Google Drive sync for document storage",
+        "icon": "☁️",
+        "type": "Integration"
+      }
+    ],
+    
+    "metrics": {
+      "linesOfCode": "10,000+",
+      "components": 15,
+      "apiEndpoints": 8,
+      "buildSize": "1MB (295KB gzipped)",
+      "performanceScore": "95+ Lighthouse",
+      "typeSafety": "100% TypeScript",
+      "responsiveBreakpoints": 4,
+      "deploymentPlatforms": 4
+    },
+    
+    "highlights": [
+      "Latest React 19 with concurrent features",
+      "100% TypeScript implementation for type safety",
+      "Google Gemini AI integration for intelligent assistance",
+      "Modern glassmorphism UI design",
+      "Real-time data visualization with Recharts",
+      "Multi-platform deployment support",
+      "Enterprise-grade security features",
+      "Mobile-first responsive design",
+      "Advanced financial calculation engines",
+      "Automated document generation system"
+    ],
+    
+    "challenges": [
+      {
+        "challenge": "AI Integration",
+        "solution": "Implemented Google Gemini AI with proper error handling and context management"
+      },
+      {
+        "challenge": "Complex Financial Calculations",
+        "solution": "Built modular calculation engines with TypeScript for accuracy and maintainability"
+      },
+      {
+        "challenge": "Real-time Data Visualization",
+        "solution": "Integrated Recharts with optimized data processing and responsive design"
+      },
+      {
+        "challenge": "Multi-platform Deployment",
+        "solution": "Created flexible build configuration supporting Vercel, Netlify, and Cloud Run"
+      }
+    ],
+    
+    "learnings": [
+      "Advanced React 19 features and concurrent rendering",
+      "Google Gemini AI API integration and prompt engineering",
+      "Enterprise-level TypeScript architecture patterns",
+      "Modern CSS techniques with Tailwind CSS 4.0",
+      "Financial domain knowledge and calculation methodologies",
+      "Multi-platform deployment strategies and optimization",
+      "Performance optimization for large-scale applications",
+      "Accessibility best practices in financial applications"
+    ],
+    
+    "images": {
+      "hero": "/images/ai-debt-relief-hero.png",
+      "dashboard": "/images/dashboard-screenshot.png",
+      "mobile": "/images/mobile-responsive.png",
+      "architecture": "/images/system-architecture.png",
+      "logo": "/images/creditflow-logo.png"
+    },
+    
+    "seo": {
+      "keywords": ["AI", "Financial Technology", "Debt Relief", "React", "TypeScript", "Enterprise Software", "Machine Learning", "FinTech"],
+      "tags": ["#React", "#TypeScript", "#AI", "#FinTech", "#WebDevelopment", "#FullStack", "#Enterprise"],
+      "category": "Financial Technology"
+    },
+    
+    "created": "2024",
+    "lastUpdated": "2024-12-20",
+    "version": "2.1.0",
+    "license": "Apache-2.0"
+  }
+}
