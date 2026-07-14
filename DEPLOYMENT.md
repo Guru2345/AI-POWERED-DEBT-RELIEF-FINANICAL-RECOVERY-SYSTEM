@@ -207,7 +207,9 @@ npm run build
 
 ## 🎉 **Live Demo Links**
 
-Once deployed, your CreditFlow Pro platform will be accessible at:
+🚀 **Production Deployment**: [https://ais-dev-kqnufxjnn62rwtactzdxtm-550408133837.asia-southeast1.run.app](https://ais-dev-kqnufxjnn62rwtactzdxtm-550408133837.asia-southeast1.run.app)
+
+Once deployed to other platforms, your CreditFlow Pro platform will also be accessible at:
 
 - **Vercel**: `https://creditflow-pro-[your-id].vercel.app`
 - **Netlify**: `https://creditflow-pro-[your-id].netlify.app`
