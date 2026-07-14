@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #0D9488;
+  --color-secondary: #059669;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+  --color-navy: #09090B;
+}
+
+@layer utilities {
+  .btn-gradient {
+    @apply bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-500 hover:to-emerald-500 text-white font-medium shadow-md shadow-teal-500/20 transition-all;
+  }
+  .glass-card {
+    @apply bg-zinc-900/60 backdrop-blur-md border border-zinc-700/50 shadow-xl;
+  }
+}
+
+.light-theme {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+  color: #111827 !important;
+}
+
+.light-theme .glass-card {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border-color: #e5e7eb !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  color: #111827 !important;
+}
+
+.light-theme .text-white, 
+.light-theme .text-zinc-100, 
+.light-theme .text-zinc-200 {
+  color: #111827 !important;
+}
+
+.light-theme .text-zinc-300, 
+.light-theme .text-zinc-400 {
+  color: #4b5563 !important;
+}
+
+.light-theme .text-zinc-500 {
+  color: #6b7280 !important;
+}
+
+.light-theme .bg-zinc-950, 
+.light-theme .bg-zinc-900, 
+.light-theme .bg-\[\#0F172A\] {
+  background-color: #f3f4f6 !important;
+}
+
+.light-theme .border-zinc-800, 
+.light-theme .border-zinc-700 {
+  border-color: #d1d5db !important;
+}
+
+.light-theme input, 
+.light-theme textarea {
+  background-color: #ffffff !important;
+  color: #111827 !important;
+  border-color: #d1d5db !important;
+}
+
+.light-theme .bg-teal-600\/10,
+.light-theme .bg-emerald-600\/10 {
+  background-color: rgba(13, 148, 136, 0.1) !important;
+}
