@@ -238,6 +238,9 @@ const generateFinancialAdvice = async (context: FinancialContext) => {
 ### **📂 Source Code**
 **GitHub Repository**: [https://github.com/Guru2345/AI-POWERED-DEBT-RELIEF-FINANICAL-RECOVERY-SYSTEM](https://github.com/Guru2345/AI-POWERED-DEBT-RELIEF-FINANICAL-RECOVERY-SYSTEM)
 
+### **🎨 Project Profile Drive**
+**Showcase Website**: Deploy `project-profile-drive/index.html` for a beautiful project presentation
+
 ### **📋 Documentation**
 - [README.md](https://github.com/Guru2345/AI-POWERED-DEBT-RELIEF-FINANICAL-RECOVERY-SYSTEM/blob/main/README.md) - Project overview and setup
 - [DEPLOYMENT.md](https://github.com/Guru2345/AI-POWERED-DEBT-RELIEF-FINANICAL-RECOVERY-SYSTEM/blob/main/DEPLOYMENT.md) - Deployment instructions
